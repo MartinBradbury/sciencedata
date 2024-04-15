@@ -20,6 +20,6 @@ from django.urls import path, include
 from biology_unit1 import views as biology_views
 
 urlpatterns = [
-    path('', include('biology_unit1.urls'), name='test'),
+    path('biology/', include('biology_unit1.urls'), name='test'),
     path('admin/', admin.site.urls),
 ]
